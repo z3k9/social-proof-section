@@ -1,0 +1,24 @@
+:root{
+    --primary-magenta: hsl(300, 43%, 22%);
+    --primary-pink: hsl(333, 80%, 67%);
+    --neutral-dark-magenta: hsl(303, 10%, 53%);
+    --neutral-gray-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+    --default-font: 'League Spartan', sans-serif;
+}
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+}
